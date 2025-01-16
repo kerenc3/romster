@@ -37,7 +37,7 @@ for instance in idb:
     # solver = DelaunayBasedSolver(instance)
     # solver = DelaunayCopySolver(instance)
     # solver = OrthogonalSolver(instance)
-    solver = RectangleSolver(instance)
+    # solver = RectangleSolver(instance)
     solution = solver.solve()
 
     # solver = ShirSolver(instance)
